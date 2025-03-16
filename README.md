@@ -43,9 +43,13 @@ Aqui está uma visão geral da estrutura do projeto:
 git clone git@github.com:FranciscoGeorgeR/desafio-tecnico-Duxus.git
 ```
 
-#### Instale as Dependências:
+#### Instale as Dependências(certifique-se de ter  cypress instalado):
 ```bash
 npm install
+```
+### Execute também o comando:
+```bash
+npx cypress install
 ```
 
 #### Execute os Testes:
