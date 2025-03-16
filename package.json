@@ -3,14 +3,15 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "testes:allure": "npx cypress run --env allure=true",
+    "cy:open": "npx cypress open"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "description": "",
   "devDependencies": {
-    "@shelex/cypress-allure-plugin": "^2.40.2",
+    "@mmisty/cypress-allure-adapter": "^3.2.3",
     "allure-commandline": "^2.33.0",
     "cypress": "^14.2.0"
   }

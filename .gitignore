@@ -11,7 +11,7 @@ cypress/videos/
 cypress/downloads/
 cypress/reports/
 allure-results
-
+allure-report
 # Ignorar arquivos de configuração local do Cypress
 cypress.env.json
 

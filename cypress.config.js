@@ -1,13 +1,14 @@
 const { defineConfig } = require("cypress");
-
+const { configureAllureAdapterPlugins } = require('@mmisty/cypress-allure-adapter/plugins');
 module.exports = defineConfig({
   e2e: {
     env: {
       baseUrl: 'http://localhost:8080',
       allure: true,
+      allureResults: './allure-results',
     },
     setupNodeEvents(on, config) {
-      require('@shelex/cypress-allure-plugin/writer')(on, config); // Adiciona o Allure Plugin
+      configureAllureAdapterPlugins(on, config);
       return config;
     },
   },
