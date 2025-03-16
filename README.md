@@ -31,8 +31,10 @@ Aqui está uma visão geral da estrutura do projeto:
 
 ### Pré-requisitos
 - **Node.js**: Certifique-se de ter o Node.js instalado. Você pode baixá-lo [aqui](https://nodejs.org/).
-- **Cypress**: Instale o Cypress globalmente ou como dependência do projeto.
-- **Docker e Docker Compose**: Para rodar a aplicação que será testada, você precisa executar primeiro o projeto com docker compose.
+- **Cypress**: Instale o Cypress globalmente ou como dependência do projeto. Você pode baixá-lo [aqui](https://www.cypress.io/).
+- **Docker e Docker Compose**: Para rodar a aplicação que será testada, você precisa executar primeiro o projeto com docker compose. Certifique-se de que você tem o **Docker** instalado em sua máquina.  
+    Caso não tenha, siga as instruções no site oficial: [Instalar Docker](https://docs.docker.com/get-docker/).
+- **Projeto para rodar Docker Compose**: [Projeto](https://github.com/rhDuxus/desafioAnalistaTestes)  
 
 ### Passos para Configuração
 
@@ -56,6 +58,22 @@ npx cypress open
 Para rodar os testes no modo headless (terminal):
 ```bash
 npx cypress run
+```
+## 📊 Gerar o Relatório Allure
+
+Após executar os testes, você pode gerar o relatório **Allure** com os seguintes comandos:
+
+### 1️⃣ Executar os Testes:
+```bash
+npx cypress run --env allure=true
+```
+### 2️⃣ Executar os Testes:
+```bash
+npx allure generate allure-results --clean
+```
+### 3️⃣ Abrir o Relatório:
+```bash
+npx allure open
 ```
 
 ## 🧪 Testes Implementados
