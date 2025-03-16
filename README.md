@@ -32,6 +32,7 @@ Aqui está uma visão geral da estrutura do projeto:
 ### Pré-requisitos
 - **Node.js**: Certifique-se de ter o Node.js instalado. Você pode baixá-lo [aqui](https://nodejs.org/).
 - **Cypress**: Instale o Cypress globalmente ou como dependência do projeto.
+- **Docker e Docker Compose**: Para rodar a aplicação que será testada, você precisa executar primeiro o projeto com docker compose.
 
 ### Passos para Configuração
 
