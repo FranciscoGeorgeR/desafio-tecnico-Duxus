@@ -95,6 +95,6 @@ npx cypress run
 ## 📧 Contato
 Se tiver dúvidas ou sugestões, entre em contato:
 
-- **Email**: george.franciscodesousa@exemplo.com
+- **Email**: george.franciscodesousa@gmail.com
 - **GitHub**: [FranciscoGeorgeR](https://github.com/FranciscoGeorgeR)
 
