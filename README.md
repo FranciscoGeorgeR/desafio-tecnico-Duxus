@@ -1,6 +1,6 @@
 # Projeto de Testes Automatizados com Cypress
 
-Este projeto utiliza o Cypress para realizar testes automatizados de uma aplicação web, focando no fluxo de registro e login de usuários. Ele foi estruturado para ser modular, com Page Objects e elementos de página separados, facilitando a manutenção e a escalabilidade.
+Este projeto utiliza o Cypress para realizar testes automatizados de uma aplicação web, focando no fluxo de registro e login de usuários.
 
 ## 📁 Estrutura do Projeto
 Aqui está uma visão geral da estrutura do projeto:
